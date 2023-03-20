@@ -1,0 +1,19 @@
+# VELODROME settings
+TRACK_LENGTH: 250 
+BEND1_START: 5
+BEND1_END: 90
+BEND2_START: 130
+BEND2_END: 215
+TRANSITION_LENGTH: 15   # length that bend goes from no curve to full curvature 
+TRACK_MIN_RADIUS: 25    # estimated 25m for Newport based on data but could be less (Derby is 23.2m)
+TRACK_MAX_RADIUS: 1000  # arbritary large value (not too large, otherwise distorts averages for sectors)
+TRACK_MIN_BANK: 13      # measured Newport as 14 but reduced by 1 (see below)
+TRACK_MAX_BANK: 42      # measured Newport as 43 but website says 42
+STRAIGHT_LEN: 40        # should match BEND2_START - BEND1_END 
+
+# IR Lap Sensor Position
+TRACK_SENSOR_POS: 100   # 100m trackside marking 
+
+# Environment settings
+GRAVITY:  9.8118        # Conventional standard is 9.80655, British standard is 9.8118  (0.05% diff)
+HUMIDITY: 59            # % humidity for getting air pressure from air density readings

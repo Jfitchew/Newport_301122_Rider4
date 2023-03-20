@@ -1,0 +1,22 @@
+# Rider Settings
+RIDER_WEIGHT: 79.3
+
+# Bike settings
+BIKE_WEIGHT: 11.1     # without rod+discs
+ROD_DISC_WEIGHT: 0.3  # ??
+CRR: 0.0025           # check what BR have set this too for their data processing
+BIKE_DTL: 4.0         # % loss to drive train 
+
+# Wheel settings usually refer to the front wheel where the speed sensor is positioned 
+WHEEL_CIRC_ACTUAL: 2096
+WHEEL_CIRC_BR_SETTING: 2096  
+REAR_WHEEL_CIRC: 2100   # needed for determining speeds from cadence and crank angle delta
+CHAINRING: 50.0         # could change!
+SPROCKET: 15            # NOT actually using fixed value as it may change between (and in!) test runs! (see code under Add MORE FIELDS where sprocket is calculated)
+
+# Height settings
+COM_HEIGHT: 1.1         # using saddle height for Centre of Mass for both rider and bike (saddle was actually 1.02)
+COM_RIDER_HEIGHT: 1.2   # higher than COM_HEIGHT as bike mass is excluded so all weight in body and legs. 
+COP_HEIGHT: 1.2         # Centre of Pressure (centre of Frontal Area) - will be slightly higher than CoM as FA of bike is much smaller for its mass (displaced more lengthwise)
+COP_RIDER_HEIGHT: 1.25  # keeping this close to COP_HEIGHT because FA of bike is small and addition of rod and discs lower than saddle will offset this 
+PITOT_HEIGHT: 0.8       # Height of Pitot tube where air speed is measured
