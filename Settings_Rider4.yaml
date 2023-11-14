@@ -1,18 +1,20 @@
-# Rider Settings
-RIDER_WEIGHT: 79.3
+# Rider Settings (Nick.F)
+RIDER_WEIGHT: 75.5  # from Total Fy mins
 
 # Bike settings
-BIKE_WEIGHT: 11.1     # without rod+discs
-ROD_DISC_WEIGHT: 0.3  # ??
-CRR: 0.0025           # check what BR have set this too for their data processing
-BIKE_DTL: 4.0         # % loss to drive train 
+BIKE_WEIGHT: 11.1     # Trinity bike without rod+discs
+ROD_DISC_WEIGHT: 0.25 # Rod with 2x T-Clamp = 183.1g, 100mm discs with T-Clamp = 60.5g (Total 244g)  40mm discs with T-Clamp = 38.5g
+
+CRR: 0.0025           # check what BR have set this to for their data processing
+BIKE_DTL: 4.0         # see summary.csv
+AH_CF: 1.22           # Aerohead Rider Compensation Factor or Correction Factor
 
 # Wheel settings usually refer to the front wheel where the speed sensor is positioned 
-WHEEL_CIRC_ACTUAL: 2096
-WHEEL_CIRC_BR_SETTING: 2096  
+WHEEL_CIRC_ACTUAL: 2105 # 
+WHEEL_CIRC_BR_SETTING: 2105  # work this out from odo speed
 REAR_WHEEL_CIRC: 2100   # needed for determining speeds from cadence and crank angle delta
-CHAINRING: 50.0         # could change!
-SPROCKET: 15            # NOT actually using fixed value as it may change between (and in!) test runs! (see code under Add MORE FIELDS where sprocket is calculated)
+CHAINRING: 53.0         # could change!
+SPROCKET: 14            # NOT actually using fixed value as it may change between (and in!) test runs! (see code under Add MORE FIELDS where sprocket is calculated)
 
 # Height settings
 COM_HEIGHT: 1.1         # using saddle height for Centre of Mass for both rider and bike (saddle was actually 1.02)
@@ -20,3 +22,5 @@ COM_RIDER_HEIGHT: 1.2   # higher than COM_HEIGHT as bike mass is excluded so all
 COP_HEIGHT: 1.2         # Centre of Pressure (centre of Frontal Area) - will be slightly higher than CoM as FA of bike is much smaller for its mass (displaced more lengthwise)
 COP_RIDER_HEIGHT: 1.25  # keeping this close to COP_HEIGHT because FA of bike is small and addition of rod and discs lower than saddle will offset this 
 PITOT_HEIGHT: 0.8       # Height of Pitot tube where air speed is measured
+
+TEMP_SENSOR_RHO: Temp_C # temp sensor field used for calculating Air Density e.g. temp103T (HB Inclinometer) instead of Temp_C from Aerohead

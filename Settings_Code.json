@@ -1,0 +1,20 @@
+{
+    "VELO_SET_CORRECT": true,
+    "RIDER_SET_CORRECT": true,
+    "TESTRUNS_SET_CORRECT": true,
+    "GLOBAL_PUBLIC_LAPS_CORRECT": true,
+    "MISSING_LAP_DATA_HANDLED": true,
+    "Global_Match_Method_Chosen": true,
+    "VALID_LAPS_HANDLED": true,
+    "GLOBAL_PUBLIC_FIELDS_MATCH": true,
+    "Track_Speed_CORRECT": true,
+    "WHEEL_CIRC_BR_CORRECT": true,
+    "OdoCount_Speed_CORRECT": true,
+    "CRANK_SPD_CORRECT": true,
+    "Cadence_Speed_CORRECT": true,
+    "OdoRevTime_Speed_CORRECT": true,
+    "Rider_Weight_CORRECT": true,
+    "DATA_CLEAN_COMPLETED": true,
+    "RUN_PEAKS_SPIKES": false,
+    "Data_Cleaning_Required": true
+}

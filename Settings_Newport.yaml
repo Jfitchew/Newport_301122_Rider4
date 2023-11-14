@@ -16,4 +16,4 @@ TRACK_SENSOR_POS: 100   # 100m trackside marking
 
 # Environment settings
 GRAVITY:  9.8118        # Conventional standard is 9.80655, British standard is 9.8118  (0.05% diff)
-HUMIDITY: 59            # % humidity for getting air pressure from air density readings
+HUMIDITY: 50           # % humidity for getting air pressure from air density readings

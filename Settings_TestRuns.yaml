@@ -1,27 +1,31 @@
-Jordan:  # Riders Name
+Rider4:  # Riders Name
+  R02: 
+    Desc: 'Baseline'
+    ValidLaps: [7,8,9,10,11,12,13]  # accelerating to lap 7
   R03: 
-    Desc: 'Baseline'
-    ValidLaps: [3,4,5,6,7,8,9,10,11]
+    Desc: 'Rod Only'
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating to lap 5
   R04:  
-    Desc: 'Baseline'
-    ValidLaps: [3,4,5,6,7,8,9]
-  R05:  
-    Desc: 'Rod'
-    ValidLaps: [3,4,5,6,7,8,9,10]
-  R06:  
     Desc: '50mm Disc'
-    ValidLaps: [3,4,5,6,7]
-  R07:  
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating to lap 5
+  R05:  
     Desc: '60mm Disc'
-    ValidLaps: [6,7,8]
-  R08:  
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating to lap 5
+  R06:  
+    Desc: 'Baseline 2'
+    ValidLaps: [5,6,7,8,9,10,11,12]  # accelerating to lap 5
+  R07:  
     Desc: '80mm Disc'
-    ValidLaps: [3,4,5,6,7,8,9]
-  R09:  
+    ValidLaps: [5,6,7,8,9,10,11]  # accelerating to lap 5
+  R08:  
     Desc: '100mm Disc'
-    ValidLaps: [3,4,5,6,7,8]
+    ValidLaps: [4,5,6,7,8,9,10,11]  # accelerating to lap 4
+  R09:  
+    Desc: 'Baseline 3'
+    ValidLaps: [5,6,7,]  # accelerating to lap 5, speed errors around lap 8,9 etc
   R10:  
     Desc: 'Shuffle'
-    ValidLaps: [3,4,5,6,7,8,9,10,11]
+    ValidLaps: [5,6,7,8,9,10,11,12,13,14]  # accelerating to lap 5
+    Sprocket: 12
 
 
